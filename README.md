@@ -1,5 +1,6 @@
 # Excelsior
 
-A text-based, terminal adventure game. Set in a middle-ages universe, with knights, castles, wizards, dragons, and all the like.
+A text adventure game. Not ZORK at all.
 
-Made by Nicholas Benish, 2018, All Rights Reserved
+
+**Made by Nicholas Benish, 2018, All Rights Reserved**
