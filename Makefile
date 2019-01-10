@@ -3,12 +3,12 @@ LDFLAGS =
 CXXFLAGS = -o
 OBJS = Excelsior
 FILES = game.c
-DEPS = game.h
+DEPS = excelsior.h
 
 all : $(FILES)
 	$(CXX) $(CXXFLAGS) Excelsior game.c $(DEPS)
 
-game : game.c game.h
+game : game.c text.h
 	$(CXX) $(CXXFLAGS) Excelsior $< $(DEPS)
 
 clean :
